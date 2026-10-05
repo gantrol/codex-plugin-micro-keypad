@@ -1,9 +1,22 @@
 # Codex Micro Monitor plugin
 
+## 安装
+
+把下面这段发给 Codex：
+
+> 请帮我安装这个插件：https://github.com/gantrol/codex-plugin-micro-keypad
+> 使用最新 Release 中的完整插件包，检查运行环境并完成安装。
+
+安装完成后，按提示重启 Codex，新开聊天说：
+
+> 打开 Micro。
+
+插件已包含 Micro 程序，无需另外安装桌面版。目前支持 Windows x64。
+
+---
+
 Windows plugin distribution for [Codex Micro Monitor](https://github.com/gantrol/codex-micro-monitor).
 
-- Download the complete plugin ZIP from [Releases](https://github.com/gantrol/codex-plugin-micro-keypad/releases/latest). It requires .NET 10 Desktop Runtime x64 and a signed-in Codex desktop app.
-- Follow the [installation instructions](https://github.com/gantrol/codex-micro-monitor#install). Source archives do not contain `bin/CodexMicro.Plugin.exe`; use the release plugin ZIP.
 - Product source, builds and shared panel changes belong in the [main product repository](https://github.com/gantrol/codex-micro-monitor), version 1.0.0 / Windows file version 1.0.0.0.
 - [macOS development handoff](https://github.com/gantrol/codex-micro-monitor/blob/main/docs/architecture/macos-development-handoff.zh-CN.md): no macOS plugin is available yet.
 - Public plugin-directory submission and live plugin-install acceptance remain pending.
